@@ -66,7 +66,6 @@ div p:nth-child(3){
 /* hover add start*/
 
 .flip-container{
-    perspective: 1000;
     position: relative;
 }
 
@@ -74,28 +73,28 @@ div p:nth-child(3){
     transform: rotateY(180deg);
 }
     
-.flip-container, .front, .back {
+.flip-container, .front, .back{
     width: 269px;
     height: 268px;
 }
-.flipper {
-    transition: 0.7s;
+.flipper{
     transform-style: preserve-3d;
     position: relative;
+    transition: 0.7s;
 }
 
-.front, .back {
+.front, .back{
     backface-visibility: hidden;
     position: absolute;
     top: 0;
     left: 0;
 }
 
-.front {
+.front{
     z-index: 2;
 }
 
-.back {
+.back{
     background: #18b5dc;
     transform: rotateY(180deg);
 }
