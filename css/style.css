@@ -112,6 +112,12 @@ i{
     font-size: 20px;
     margin-top: 43%;
 }
+i:hover{
+    background: #57ddff;
+}
+i:active{
+    box-shadow: 0px 0px 3px 1px #3a7685;
+}
 
 div>p{
     position: absolute;
@@ -120,11 +126,9 @@ div>p{
 .flip-container{
     height: 330px;
 }
-
 .name{
     bottom: 22px;
 }
-
 .position{
     bottom: 6px;
 }
