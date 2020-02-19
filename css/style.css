@@ -6,16 +6,17 @@ body{
 }
 
 header{
-    margin-top: 100px;
+    margin-top: 105px;
 }
 h1{
     text-transform: uppercase;
     font-size: 34px;
     font-weight: 700;
     position: relative;
-    width: 275px;
+    width: 280px;
     margin: 0 auto;
     margin-bottom: 15px;
+    letter-spacing: 5.5px;
 }
 h1::after{
     content:"";
@@ -31,8 +32,9 @@ header p{
     font-weight: 300;
     width: 550px;
     margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 55px;
+    line-height: 25px;
 }
 
 main{
@@ -108,13 +110,21 @@ i{
     padding-top: 11px;
     box-sizing: border-box;
     font-size: 20px;
-    margin-top: 45%;
+    margin-top: 43%;
 }
 
 div>p{
     position: absolute;
 }
 
-.name{
+.flip-container{
+    height: 330px;
+}
 
+.name{
+    bottom: 22px;
+}
+
+.position{
+    bottom: 6px;
 }
