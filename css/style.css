@@ -61,27 +61,11 @@ div p:nth-child(3){
     color: #646464;
 }
 
-figcaption{
-    display: flexbox;
-    flex-direction: row;
-    background: #18b5dc;
-}
-i{
-    width: 42px;
-    height: 42px;
-    background: #5ecbe7;
-    color: #fff;
-    margin: 0 auto;
-    text-align: center;
-    padding-top: 10px;
-    box-sizing: border-box;
-    font-size: 20px;
-    margin-top: 45%;
-}
 /* hover add start*/
 
 .flip-container{
     perspective: 1000;
+    position: relative;
 }
 
 .flip-container:hover .flipper{
@@ -93,9 +77,8 @@ i{
     height: 268px;
 }
 .flipper {
-    transition: 0.6s;
+    transition: 0.7s;
     transform-style: preserve-3d;
-    
     position: relative;
 }
 
@@ -111,5 +94,27 @@ i{
 }
 
 .back {
+    background: #18b5dc;
     transform: rotateY(180deg);
+}
+
+i{
+    width: 42px;
+    height: 42px;
+    background: #5ecbe7;
+    color: #fff;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 11px;
+    box-sizing: border-box;
+    font-size: 20px;
+    margin-top: 45%;
+}
+
+div>p{
+    position: absolute;
+}
+
+.name{
+
 }
